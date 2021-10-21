@@ -6,7 +6,8 @@
   "types": "dist/types.d.ts",
   "scripts": {
     "watch": "parcel watch",
-    "build": "parcel build"
+    "build": "parcel build",
+    "release": "yarn npm publish"
   },
   "packageManager": "yarn@3.0.2",
   "repository": {
