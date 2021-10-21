@@ -1195,6 +1195,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sekyungkim-dhk/parcel-package@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@sekyungkim-dhk/parcel-package@workspace:."
+  dependencies:
+    "@parcel/diagnostic": ^2.0.0
+    "@parcel/packager-ts": ^2.0.0
+    "@parcel/transformer-typescript-types": ^2.0.0
+    "@types/react": ^17.0.31
+    "@types/react-dom": ^17.0.10
+    "@types/styled-components": ^5.1.15
+    parcel: ^2.0.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    styled-components: ^5.3.3
+    typescript: ^4.4.4
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@swc/helpers@npm:^0.2.11":
   version: 0.2.13
   resolution: "@swc/helpers@npm:0.2.13"
@@ -4772,26 +4792,6 @@ __metadata:
   checksum: 1be2bfa1f807608c7538afa15d6f25baa523c30ec870a3228a89579e474a4d992f4293859524e46d5d87fd30fa17c5edf34dbef0671251d9749820b488660b16
   languageName: node
   linkType: hard
-
-"parcel-package@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "parcel-package@workspace:."
-  dependencies:
-    "@parcel/diagnostic": ^2.0.0
-    "@parcel/packager-ts": ^2.0.0
-    "@parcel/transformer-typescript-types": ^2.0.0
-    "@types/react": ^17.0.31
-    "@types/react-dom": ^17.0.10
-    "@types/styled-components": ^5.1.15
-    parcel: ^2.0.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    styled-components: ^5.3.3
-    typescript: ^4.4.4
-  peerDependencies:
-    react: "*"
-  languageName: unknown
-  linkType: soft
 
 "parcel@npm:^2.0.0":
   version: 2.0.0
