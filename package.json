@@ -20,6 +20,11 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "^10.32.1",
+    "@auto-it/conventional-commits": "^10.32.1",
+    "@auto-it/first-time-contributor": "^10.32.1",
+    "@auto-it/npm": "^10.32.1",
+    "@auto-it/released": "^10.32.1",
     "@parcel/diagnostic": "^2.0.0",
     "@parcel/packager-ts": "^2.0.0",
     "@parcel/transformer-typescript-types": "^2.0.0",
