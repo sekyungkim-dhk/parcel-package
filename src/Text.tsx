@@ -4,5 +4,5 @@ interface TextProps {
   children: ReactNode;
 }
 export function Text({ children }: TextProps) {
-  return <div>{children}</div>;
+  return <div>{children}test</div>;
 }
